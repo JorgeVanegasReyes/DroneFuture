@@ -1,0 +1,102 @@
+/*  */
+*{
+    box-sizing:border-box; /*que todas las imagenes den hasta el borde sin desbordarse*/
+}
+
+/* a las clases de HTML se les llama a CSS, empezando con un punto .main{} */
+header{
+    background-color:cadetblue;
+    border-style:solid;
+    border-radius: 20px;
+    text-align:center;
+    padding: 20px;
+    color:white;
+    height: 40px;
+    opacity: .8;
+}
+
+
+/* PARA AÑADIR IMAGENES */
+body{
+    background-image: url(img/Drone\ Background\ 5\ -\ 1300x740.jpg); /*para la imagen estatica de fondo */
+    background-position:center;
+    background-size:cover;
+    background-attachment:fixed;
+    background-repeat: no repeat;   
+    position: absolute;
+    
+}
+ul{
+    margin:0%;
+    padding:0px;
+    list-style:none;
+}
+ul li{
+    float:left;
+    width:200px;
+    height:40px;
+    background-color:black;
+    opacity: .8;  /*esto hara la barra menu transparente*/
+    line-height: 40px;
+    text-align:center;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration:none;
+    color:white;
+    display:block;
+    position:relative;
+}
+ul li a:hoover{
+    background-color:cornflowerblue;
+}
+ul li ul li{
+    display:none;
+}
+
+img{
+    transition:all 20.9s linear;
+    padding: 20px;
+    border-radius: 50px;
+}
+img:hover{ /*img:hover atributo especial para colocarse encima de una imagen y hacer que se mueva*/
+   transform:scale(0,1); 
+   border-radius:30px; 
+}
+.main img{  /* viene de la imagen de la clase main  */
+    float:left;
+    width:20%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block; /*visualizacion de la imagen siempre estara centrada*/
+    padding: 20px;
+}
+
+/*TABLA - REGISTRO DE PEDIDOS*/
+table, th, td {
+    border:1px solid black;
+    border-collapse:collapse;
+    background-color:bisque;
+    box-shadow:5px 5px 5px gray;
+}
+
+th, td {
+    padding:12px;
+}
+ 
+th{
+    background-color:black;
+    color:white;
+}
+
+/*Footer o pie de pagina*/
+/*  */
+footer {
+    background-color:cadetblue;
+    border-style:solid;
+    border-radius: 20px;
+    text-align:center;
+    padding: 20px;
+    clear:both; /*que el pie de pagina se quede solo y que a la izq o der no tenga nada mas  */
+}
+

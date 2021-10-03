@@ -1,0 +1,69 @@
+<!DOCTYPE html>   <!--  -->
+<html lang="es">  <!-- tipo de lenguaje -->
+    
+</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos4.css">  <!-- para hacer la conexion con estilos.css -->
+    <title>Shipping Drone 4</title> <!--titulo que va dentro de la pestaña del navegador, lo que google usa para identificar las busquedas  -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- direccion que enlaza a bootstrap con css-->
+</head>
+
+<body>    
+      <!-- &nbsp; para dejar espacios entre palabra dentro de un parrafo y *** <pre> </pre> de performato es para que el texto salga tal cual como se escribio en html-->
+    
+   <!--  -->
+    <!-- dos inputs uno al lado del otro y en la segunda columna varios-->
+    <div class="row">
+        <h2>HISTORICO DE PEDIDOS POR CADA CLIENTE</h2>
+        <div class="col">
+            
+          <input type="text" class="form-control" placeholder="Id pedido" aria-label="Id pedido">  
+          <br>
+            <input type="text" class="form-control" placeholder="Nombre cliente " aria-label="Nombre cliente">
+            <br>
+           
+        </div>
+        
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+
+        <table style="width:100%">
+          <thead>
+              <tr>
+                  <th scope="col">Id pedido</th>
+                  <th scope="col">Dirección entrega</th>
+                  <th scope="col">Estado de paquete</th>
+                  <th scope="col">Tiempo de llegada</th>
+                  <th scope="col">Satisfacción cliente</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>0001</td> <!-- table data -->
+                  <td>Cr 11 # 11-11 Bogotá</td>
+                  <td>Buen estado</td>
+                  <td>30 minutos</td>
+                  <td>Excelente</td>
+              </tr> <!--table row  --> 
+              <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+              </tr>
+          </tbody>
+      </table>
+  <br/> <!--salto de linea  -->
+  <br/>
+    </div>
+     
+    
+
+  <script src="scripts4.js"> </script>  <!-- para enlazar HTML con javascript -->
+</body>    <!-- -->
+</html>

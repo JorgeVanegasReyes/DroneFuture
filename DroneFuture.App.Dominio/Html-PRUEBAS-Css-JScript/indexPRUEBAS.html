@@ -1,0 +1,197 @@
+<!DOCTYPE html>   <!--  -->
+<html lang="es">  <!-- tipo de lenguaje -->
+    
+</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosPRUEBAS.css">  <!-- para hacer la conexion con estilos.css -->
+    <title>Shipping Drone PRUEBAS</title> <!--titulo que va dentro de la pestaña del navegador, lo que google usa para identificar las busquedas  -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- direccion que enlaza a bootstrap con css-->
+</head>
+
+<body>    <!-- -->
+    <main>
+      <div>
+        <ul>
+          <li class="active"><a href="default.asp">PRUEBAS</a></li>
+          <li><a href="news.asp">Negocios</a></li>
+          <li><a href="contact.asp">DATOS </br>PERSONALES</a></li>
+          <li><a href="about.asp">About</a></li>
+        </ul>        
+      </div>
+
+        <form action=""class="formulario" id="formulario">
+            <div class="formulario__grupo" id="grupo__usuario">
+                <label for="usuario" class="formulario__label">Nombre</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input" name="usuario" id="usuario">
+                </div>
+            </div>
+            <div class="formulario__grupo" id="grupo__nombre">
+                <label for="nombre" class="formulario__label">Apellidos</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input" name="nombre" id="usuario">
+                </div>
+            </div>
+            <div class="formulario__grupo" id="grupo__cedula">
+                <label for="cedula" class="formulario__label">Cedula</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input" name="cedula" id="usuario">
+                </div>
+            </div>
+            <div class="formulario__grupo" id="grupo__Celular">
+                <label for="Celular" class="formulario__label">Celular</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input" name="Celular" id="usuario">
+                </div>
+            </div>
+        </form>
+
+        <!--SEGUNDO FORMULARIO-->
+        <form action=""class="formulario2" id="formulario2">
+            <div class="formulario2__grupo" id="grupo__usuario">
+                <label for="usuario" class="formulario2__label">Nombre</label>
+                <div class="formulario2__grupo-input">
+                    <input type="text" class="formulario2__input" name="usuario" id="usuario">
+                </div>
+            </div>
+            <div class="formulario2__grupo" id="grupo__nombre">
+                <label for="nombre" class="formulario2__label">Apellidos</label>
+                <div class="formulario2__grupo-input">
+                    <input type="text" class="formulario2__input" name="nombre" id="usuario">
+                </div>
+            </div>
+            <div class="formulario2__grupo" id="grupo__cedula">
+                <label for="cedula" class="formulario2__label">Cedula</label>
+                <div class="formulario2__grupo-input">
+                    <input type="text" class="formulario2__input" name="cedula" id="usuario">
+                </div>
+            </div>
+            <div class="formulario2__grupo" id="grupo__Celular">
+                <label for="Celular" class="formulario2__label">Celular</label>
+                <div class="formulario2__grupo-input">
+                    <input type="text" class="formulario2__input" name="Celular" id="usuario">
+                </div>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+            </div>
+        </form>
+    </main>
+   
+    <!--FORMULARIO DIFERENTE-->
+    <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Nivel de satisfación</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>Excelente</option>
+            <option>Bueno</option>
+            <option>Regular</option>
+            <option>Pesimo</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+      </form>
+  
+      <h2>ESTADO DE PAQUETE</h2>
+        <!-- dos inputs uno al lado del otro y en la segunda columna varios-->
+        <div class="row">
+            
+          <div class="col">
+              <label for="inputState" class="form-label"><b>Datos del envio</b></label>
+            <input type="text" class="form-control" placeholder="Id pedido" aria-label="Id pedido">  
+            <br>
+              <input type="text" class="form-control" placeholder="Nombre cliente " aria-label="Nombre cliente">
+              <br>
+              <input type="text" class="form-control" placeholder="Encargado designado" aria-label="Encargado designado">
+          </div>
+          
+          <div class="col">
+              <label for="inputState" class="form-label"><b>Datos del estado del paquete</b></label>
+              <input type="text" class="form-control" placeholder= "Temperatura de la zona" aria-label="Temperatura de la zona">
+              <br>
+              <input type="text" class="form-control" placeholder="Estado del drone " aria-label="Estado del drone">
+              <br>
+              <input type="text" class="form-control" placeholder="Estado del empaque" aria-label="Estado del empaque">
+              <br>
+              <input type="text" class="form-control" placeholder="Tiempo de llegada" aria-label="Tiempo de llegada">
+          </div>
+      </div>
+            
+            <br/>
+        <button class="Enviar">
+          <span>Enviar</span>
+        </button>
+        
+       
+       
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+        <label class="form-check-label" for="flexSwitchCheckChecked"><b>Acepto los terminos y condiciones</b></label>
+    </div>
+    
+
+  <script src="scriptsPRUEBAS.js"> </script>  <!-- para enlazar HTML con javascript -->
+</body>    <!-- -->
+</html>
+
+
+
+<!-- <form action="" class="formulario">
+        <h1 class="formulario__titulo"> Datos Personales </h1>
+        <input type="text" class="formulario__input">
+        <label for="" class="formulario__label">Nombre</label>
+
+        <input type="text" class="formulario__input">
+        <label for="" class="formulario__label">Apellido</label>
+
+        <input type="text" class="formulario__input">
+        <label for="" class="formulario__label">Cedula</label>
+
+        <input type="text" class="formulario__input">
+        <label for="" class="formulario__label">Celular</label>
+
+        <input type="text" class="formulario__input">
+        <label for="" class="formulario__label">Dirección de entrega</label>
+
+        <input type="submit" class="formulario__submit"> para que envie datos tiene que ser submit y no bottom 
+    </form> -->

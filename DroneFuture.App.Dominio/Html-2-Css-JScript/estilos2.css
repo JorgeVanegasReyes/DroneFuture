@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:'Open Sans',sans-serif;
+    background-image: url(img/Drone\ -\ RegistrarEnvio.jpg); /*para la imagen estatica de fondo */
+    background-position:center;
+    background-size:cover;
+    background-attachment:fixed;
+    background-repeat: no repeat;   
+    position: absolute;
+    width:100%;
+    padding:50px;
+    
+}
+h2{
+    text-align:left;
+    padding:30px;
+    color:rgb(17, 16, 16);
+  }
+  
+  .row{
+    max-width:100%;
+    margin:auto;
+    margin-top:100px;
+    box-shadow:0  0 20px 1px rgba(0,0,0,0.3);
+    position:relative; /*relavite, porque vamos a posisionar otro elemento en base al formulario*/
+    border-radius:30px;
+    font-size:1.3em;
+    display:grid;   /* para separar en columnas*/
+    grid-template-columns:1fr 1fr;
+  }
+  .row-justify{
+      color:darkslategray;
+  }
+  .col{
+    margin-left:10px;
+    width:50%;
+  }
+  .col-12{
+      padding:50px;
+      
+  }
+  .btn-primary{
+    width:50%;
+  }
+  button:hover{
+          transform:translateY(10px); /*para que el boton se mueva de arriba abajo --y translateX, es para que se mueva izq-der, el desplazamiento es mayor 20px*/
+          
+          }

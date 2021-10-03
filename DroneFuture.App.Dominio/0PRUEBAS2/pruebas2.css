@@ -1,0 +1,13 @@
+.section{
+    display:grid;   /* para separar en columnas*/
+    grid-template-columns:1fr 1fr;
+    width: 20%;
+}
+
+.col{
+    display:grid;   /* para separar en columnas*/
+    grid-template-columns:1fr 1fr;
+    width: 20%;
+}
+
+

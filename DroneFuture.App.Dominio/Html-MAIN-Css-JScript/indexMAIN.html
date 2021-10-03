@@ -1,0 +1,135 @@
+<!DOCTYPE html>   <!--  -->
+<html lang="en">  <!-- tipo de lenguaje -->
+    
+</head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosMAIN.css">  <!-- para hacer la conexion con estilos.css -->
+    <title>Shipping Drone MAIN</title> <!--titulo que va dentro de la pestaña del navegador, lo que google usa para identificar las busquedas  -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>   <!-- -->
+    <header>
+        <h1 class="italic" >SHIPPING DRONE</h1> <!-- titulo principal -->       
+    </header>
+
+    <div class="nav">
+    <ul>
+        <li><a href ="#">Home</a></li>
+        <li><a href ="#">About</a></li>
+            <ul>
+                <li><a>Our Team</a></li>
+                <li><a>Mission</a></li>
+                <li><a>Resources</a></li>
+            </ul>
+        <li><a href ="#">Contact</a></li>
+            <ul>
+                <li><a>Map</a></li>
+                <li><a>Directions</a></li>  
+            </ul>
+        <li><a href ="#">News</a></li>
+            <ul>
+                <li><a>Activities</a></li>
+                <li><a>Deliveries</a></li>
+                <li><a>Satisfaction Histories</a></li>
+            </ul>
+        <li><a href ="#">Help</a></li>
+    </ul>
+    </div>
+    
+    <div class="main"> 
+        <img src="img/drone-cajas-vuela-ciudad.jpg" alt="imagen no se carga"> <!-- la ponemos dentro de una clase solo para identificarla y poderla modificar en CSS como 
+            .main  -->
+        <img src="img/Drone-reparto-de-paquetería.jpg" alt="imagen prueba">
+        <img src="img/Drone-picture - 2.jpg" alt="imagen prueba">
+        <img src="img/drone 45- delivery.jpg" alt="imagen prueba">
+        <img src="img/drone 3- mens.jpg" alt="imagen prueba">
+    </div>
+
+    <hr/> <!-- Coloca una linea de separacion -->
+    <h4 class="italic" >DATOS PERSONALES CLIENTE</h4>
+   
+   
+    <hr/> <!--  -->
+    <h4 class="italic" >REGISTRAR ENVIO</h4>
+  
+  
+    <hr/> <!--  -->
+    <h4 class="italic" >ESTADO DE PAQUETE</h4>
+   
+   
+    <hr/> <!--  -->
+    <h4 class="italic" >HISTORICO DE PEDIDOS POR CADA CLIENTE</h4>
+
+        <table style="width:100%">
+            <thead>
+                <tr>
+                    <th scope="col">Id pedido</th>
+                    <th scope="col">Dirección entrega</th>
+                    <th scope="col">Estado de paquete</th>
+                    <th scope="col">Tiempo de llegada</th>
+                    <th scope="col">Satisfacción cliente</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>0001</td> <!-- table data -->
+                    <td>Cr 11 # 11-11 Bogotá</td>
+                    <td>Buen estado</td>
+                    <td>30 minutos</td>
+                    <td>Excelente</td>
+                </tr> <!--table row  --> 
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    <br/> <!--salto de linea  -->
+    <br/>
+    <!-- &nbsp; para dejar espacios entre palabra dentro de un parrafo y *** <pre> </pre> de performato es para que el texto salga tal cual como se escribio en html-->
+    
+    <hr/> <!--  -->
+    <h4 class="italic" >SATISFACCION CLIENTE</h4> <!--  -->
+    <form action="">
+        Nombre del cliente:
+        <input type="text" ></input>
+
+        Id pedido:
+        <input type="text" ></input>
+
+        Nivel de Satisfacción:
+        <select name= "Satisfaccion Cliente" id="satisfaccion">
+            <option value="excelente">Excelente</option>
+            <option value="excelente">Bueno</option>
+            <option value="excelente">Regular</option>
+            <option value="excelente">Pesimo</option>
+        </select>
+    </form>
+    <br/>
+    <br/>
+    <br/>
+      
+<footer>
+    <div class="social-media">
+        <a href="./" class="social-media-icon">
+            <i class='bx bxl-facebook'></i>
+        </a>
+        <a href="./" class="social-media-icon">
+            <i class='bx bxl-twitter'></i>
+        </a>
+        <a href="./" class="social-media-icon">
+            <i class='bx bxl-instagram'></i>
+        </a>
+    </div>
+    SHIPPING DRONE
+</footer>
+
+<script src="scriptsMAIN.js"> </script>  <!-- para enlazar HTML con javascript -->
+</body>
+</html>

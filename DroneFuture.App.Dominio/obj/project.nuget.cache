@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "t6hXsfyWZuQzGgL1RPv3lSceDyJCJyxsVlqhkDyMYimum1iwB+2Dgz71VDHciB5ph2z79pGYjXWqEBkzUqDIgw==",
+  "success": true,
+  "projectFilePath": "C:\\MensajeriaDomicilios\\DroneFuture.App\\DroneFuture.App.Dominio\\DroneFuture.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jorge Eduardo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Jorge Eduardo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

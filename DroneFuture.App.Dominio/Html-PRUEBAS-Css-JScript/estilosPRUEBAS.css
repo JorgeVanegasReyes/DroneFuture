@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c51111;
+    border-radius:30px;
+  }
+  .active {
+    background-color: #04AA6D;
+  }
+
+  li {
+    float: left;
+    border-radius:30px;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(17, 14, 14);
+    text-align: center;
+    padding: 10px 36px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(29, 58, 224);
+    border-radius:30px;
+    transform:translateY(10px); /*para que el boton se mueva de arriba abajo --y translateX, es para que se mueva izq-der, el desplazamiento es mayor 20px*/
+  }
+
+
+  /*
+  body{
+      margin:0;
+      font-family: 'Open Sans', sans-serif;
+      background-image: url(img/Drone\ Footer\ 01\ -\ icono\ -satisfaccion.jpg); /*para la imagen estatica de fondo */
+  /*    background-position:center;
+      background-size:cover;
+      background-attachment:fixed;
+      background-repeat: no repeat;   
+      position: absolute;
+  }
+  .formulario{
+    width:500px;
+    max-width:100%;
+    margin:auto;
+    margin-top:20px;
+    padding:20px;
+    box-shadow:0  0 20px 1px rgba(0,0,0,0.3);
+    position:relative; /*relavite, porque vamos a posisionar otro elemento en base al formulario*/
+ /*   margin-left:100px;
+    border-radius:20px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}*/
+
+.formulario2{
+    width:500px;
+    max-width:100%;
+    margin:auto;
+    margin-top:20px;
+    padding:20px;
+    box-shadow:0  0 20px 1px rgba(0,0,0,0.3);
+    position:relative; /*relavite, porque vamos a posisionar otro elemento en base al formulario*/
+    margin-left:200px;
+    border-radius:20px;
+    display:grid;   /* para separar en columnas*/
+    grid-template-columns:1fr 1fr;
+}
+.form-floating{
+    margin-top:20px;
+    border-radius:40px;
+}
+.row g-3{
+    font-size:1.3em;
+}
+.col-md-6{
+    margin-left:10px;
+    width:30%;
+}
+.row{
+    padding:20px;
+    
+}
