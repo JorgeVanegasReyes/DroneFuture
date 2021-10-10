@@ -1,89 +1,61 @@
-<!DOCTYPE html>   <!--  -->
-<html lang="es">  <!-- tipo de lenguaje -->
-    
-</head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=, initial-scale=1.0">
-<link rel="stylesheet" href="pruebas2.css">  <!-- para hacer la conexion con estilos.css -->
-<title>PRUEBAS 2</title> <!--titulo que va dentro de la pestaña del navegador, lo que google usa para identificar las busquedas  -->
-<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-<!-- direccion que enlaza a bootstrap con css-->
+
+
+<!DOCTYPE html> <!--  -->
+<html lang="es">
+<!-- tipo de lenguaje -->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Shipping Drone</title>
+  <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="pruebas2.css" />
+  <script src="https://kit.fontawesome.com/0db1539af8.js" crossorigin="anonymous"></script>
+
+
 </head>
 
 <body>
-<form action="">
-    <!-- -->
-    <fieldset class="section">
-        <h3>Account Type</h3>
-        <div class="row cf">
-          <div class="four col">
-            <input type="text" class="form-control" placeholder="Nombres1" aria-label="Nombres">  
-          </div>
-          <div class="four col">
-            <input type="text" class="form-control" placeholder="Nombres2" aria-label="Nombres">  
-          </div>
-          <div class="four col">
-            <input type="text" class="form-control" placeholder="Nombres3" aria-label="Nombres">  
-          </div>
-           
+  <form method="post">
+    <div>
+      <div class="formulario">
+        <h1>SATISFACCIÓN </h1>
+        <h1><span><i class="far fa-grin-beam"></i></span>CLIENTE</h1>
+        <br>
+        <div class="block">
+          <input type="text" class="formulario__input" placeholder="Id pedido">
+          <input type="text" class="formulario__input" placeholder="Nombre cliente">
         </div>
-        <div class="row cf">
-            <div class="four col">
-                <input type="text" class="form-control" placeholder="Nombres4" aria-label="Nombres">  
-              </div>
-              <div class="four col">
-                <input type="text" class="form-control" placeholder="Nombres5" aria-label="Nombres">  
-              </div>
-              <div class="four col">
-                <input type="text" class="form-control" placeholder="Nombres6" aria-label="Nombres">  
-              </div>
-              <div class="four col">
-        </div>
-        
 
-      </fieldset>
-
-
-
-          <h2>REGISTRAR ENVIO DEL CLIENTE</h2>
-          <div class="col">
-              <input type="text" class="form-control" placeholder="Nombres" aria-label="Nombres">  
-              <br>
-              <input type="text" class="form-control" placeholder="Apellidos" aria-label="Apellidos">
-              <br>
-              <input type="text" class="form-control" placeholder="Cedula" aria-label="Cedula">
-              <br>
-              <input type="text" class="form-control" placeholder="Celular" aria-label="Celular">
-          </div>
+        <div class="block2">
+          <label for="inputState" class="form-label"><b>Nivel de satisfaccion :</b></label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>Excelente servicio</option>
+            <option>Bueno</option>
+            <option>Regular</option>
+            <option>Pesimo; Hay que hacer cambios</option>
+          </select>
           <br>
           <br>
+          <br>
+          <div class="texto"> 
+          <form action="">
+              <p>Su opinión es my importante, por favor comentenos el proceso mientras realizaba y esperaba el pedido.</p>
+              <textarea class="estilotexto"style="resize:none;" cols="48" rows="5" placeholder="Escribe aqui tu mensaje"></textarea>
+          </form>
+        </div>
           <div class="col">
-              <input type="text" class="form-control" placeholder="Dirección de entrega" aria-label="Dirección de entrega">
-              <br>
-              <input type="text" class="form-control" placeholder= "Encargado Designado" aria-label="Encargado Designado">
-              <br>
-              <input type="text" class="form-control" placeholder="Id pedido" aria-label="Id pedido">
-              <br> 
+            <button type="submit" class="formulario__submit"><span><i class="far fa-save"></i></span>Guardar</button>
+            <!-- para que envie datos tiene que ser submit y no bottom -->
           </div>
-        
-  </div> <!-- /form -->
-</form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </form>
 </body>
 
 </html>
 
-<!--<div class="row justify">
-            <div class="col">
-                <button type="submit" class="btn btn-primary">Registrar</button>
-            </div>
-            <div class="col order-1">
-                <button type="submit" class="btn btn-primary">Buscar</button>
-            </div>
-            <div class="col order-2">
-                <button type="submit" class="btn btn-primary">Actualizar</button>
-            </div>
-            <div class="col order-3">
-                <button type="submit" class="btn btn-primary">Eliminar</button>
-            </div>
-        </div> -->
